@@ -25,5 +25,107 @@ vpn
 
 mvc archetecture..
 
+-----------------------------
+
+
+node js 
+
+its a environment to run js.
+its not language..not a framework.
+
+2009 - js runs only on browser
+
+ryan phd.. -> v8 + c++ packages => node enironment.
+
+
+js -> react + node => full stack
+
+
+js -> single threaded lang..synch 
+
+node python
+
+python 5000req/s   
+node 40000req/s
+
+
+js -> web Api's
+node -> thread pool
+
+in reality node js 7 threads...
+1 main thread service workers..
+
+
+prefer node
+i/o -> operation based
+
+
+cpu intensive -> java (multi threaded lang.)
+
+window js 
+global in node.
+
+node framework ->
+express,
+restify,
+fastify
+next js - node framework..
+
+next js - frontend 
+
+library and framework
+
+collection of library framework..
+
+
+IIFE(immideatly invoked function expression)
+
+
+(
+    function(exports,require,module,__dirname,__filename){
+        -----
+        ----
+        ---
+        ---
+        --
+    }
+)()
+
+
+module --- (library)
+module is nothing but js object which having some properties..
+set functions..
+
+
+//defaul export 
+//name export 
+
+
+synatx of named export
+
+export  -> 
+
+module.exports.<functionname>  = <functionname>
+
+import ->
+
+const {<functionname>} = require("<file name>")
+
+syntax -
+
+//default export
+
+module.exports = <fnctionName>;
+
+//import 
+
+const <name> = require("<file name>");
+
+
+
+
+
+
+
 
 
