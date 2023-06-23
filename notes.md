@@ -122,6 +122,73 @@ module.exports = <fnctionName>;
 const <name> = require("<file name>");
 
 
+---------------------------------------
+
+exporting more the one function named export 
+
+module.exports = {
+    add,
+    subtract
+}
+
+
+question - can we export default as well as name from a same file?
+
+
+node -> 
+
+node js runs single threaded , non - blocking async programmming , which is very 
+efficient.
+
+Modules
+
+Node Inbuilt Modules 
+
+1-> path modules
+
+2-> os modules
+
+(operating system) -> basically it connects hardware to software..
+
+//path module
+
+
+// const path = require("path");
+
+// const ans = path.parse("index.js");
+
+// console.log(ans);
+
+
+//os module
+
+//const os = require("os");
+
+//ram
+
+//methods..
+
+//console.log((os.totalmem())/1024/1024);  
+//it gives in bytes..
+
+
+//console.log(os.freemem());
+
+//console.log(os.platform());
+
+//console.log(os.arch());
+
+//console.log(os.networkInterfaces());
+
+
+3- fs(file system)
+4- event
+
+
+
+
+
+
 
 
 

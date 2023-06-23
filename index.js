@@ -1,10 +1,11 @@
-function add(a,b){
-    console.log(a+b);
-}
+// function add(a,b){
+//     console.log(a+b);
+//     return a+b;
+// }
 
-function subtract(a,b){
-    return a-b;
-}
+// function subtract(a,b){
+//     return a-b;
+// }
 
 //named export
 //module.exports.add = add;
@@ -12,8 +13,25 @@ function subtract(a,b){
 
 //default export
 
-// module.exports = add;
+ //module.exports = add;
+ //module.exports = subtract;
 
-module.exports = {
-    
-}
+// module.exports = {
+//     add,
+//     subtract
+// }
+
+// module.exports = add;
+// module.exports.subtract = subtract;
+//console.log("haiiiii");
+// console.log(global);
+ //global.exports = add;
+// console.log(global);
+
+// module.exports.add = add;
+
+// module.exports.myfun = ()=>{
+//     reunrejnrjenf;
+// }
+
+
