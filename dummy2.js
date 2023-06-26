@@ -43,3 +43,45 @@
 //console.log(os.arch());
 
 //console.log(os.networkInterfaces());
+
+
+//fs module
+
+
+const fs = require("fs");
+
+
+//read 
+//sync
+//const files = fs.readdirSync("./");
+
+//async
+//const files = fs.readdir("./");
+
+// fs.readdir("./",(err,files)=>{
+//     if(err) console.log(err);
+//     console.log(files);
+// })
+
+//console.log(files);
+
+//read 
+
+//sync
+//const file = fs.readFileSync("./index.js","utf-8");
+//console.log(file);
+
+
+//async
+
+// fs.readFile("./index.js","utf-8",(err,file)=>{
+//     if(err) console.log(err);
+//     console.log(file);
+// })
+
+
+
+
+
+
+

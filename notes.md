@@ -184,6 +184,41 @@ Node Inbuilt Modules
 3- fs(file system)
 4- event
 
+//fs module
+
+read file 
+create file
+update file
+delete file
+
+const fs = require("fs");
+
+
+//read 
+//sync
+//const files = fs.readdirSync("./");
+
+//async
+//const files = fs.readdir("./");
+
+// fs.readdir("./",(err,files)=>{
+//     if(err) console.log(err);
+//     console.log(files);
+// })
+
+//console.log(files);
+
+
+remember - don't use sync use alws async...
+
+
+//read 
+
+const file = fs.readFileSync("./index.js");
+
+console.log(file);
+
+//you will get the answer in buffer format.
 
 
 
