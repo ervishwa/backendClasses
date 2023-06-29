@@ -220,6 +220,96 @@ console.log(file);
 
 //you will get the answer in buffer format.
 
+---------------------------
+
+write fs 
+
+fs.wrtieFileSync
+
+purana data ko replace kar dega and if file nhi hoga then new file create karega.
+
+append file
+
+//async
+fs.appendFile("vishnu.md","hai i am genuis",(err)=>{
+    if(err) console.log(err);
+    console.log("file saved !");
+})
+purana data ma add kar dega ..and if file nhi hoga then new file create karega.
+
+
+update -> append & write
+
+
+delete
+
+//delete
+
+fs.unlink("vishnu.md",(err)=>{
+    if(err) console.log(err);
+    console.log("deleted succfully !");
+})
+
+//will delete the file..
+
+
+//rename
+
+//rename
+
+fs.rename("vishnu.json","vishnu.md",(err)=>{
+    if(err)console.log(err);
+    console.log("file rename successfully!");
+})
+
+
+Next Events module
+
+events - user driven.
+
+//Event Module
+
+
+const EventEmitter = require("events");
+
+//class 
+
+const emitter = new EventEmitter();
+
+
+//register
+// document.addEventListener("click",()=>{
+
+// })
+
+
+
+//emitter.addListener();
+
+//register the event
+emitter.on("khansi",(name)=>{
+    console.log("versa khansh rahi ha !",name);
+})
+
+
+//trigger
+
+emitter.emit("khansi","kamble");
+
+Note - it will not followe any hoisting and all.
+
+
+HTTP Module use to create server on my comp...
+
+
+
+
+
+
+
+
+
+
 
 
 

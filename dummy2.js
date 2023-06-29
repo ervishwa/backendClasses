@@ -48,7 +48,7 @@
 //fs module
 
 
-const fs = require("fs");
+//const fs = require("fs");
 
 
 //read 
@@ -78,6 +78,77 @@ const fs = require("fs");
 //     if(err) console.log(err);
 //     console.log(file);
 // })
+
+
+//write
+
+//sync
+
+//const val = "hai i am vishnu thakur."
+
+// const val = {
+//     name : "king",
+//     age : 28,
+//     country : "america",
+// }
+
+//fs.writeFileSync("vishnu.json",JSON.stringify(val));
+
+//appendFile
+
+//async
+// fs.appendFile("vishnu.md","hai i am genuis",(err)=>{
+//     if(err) console.log(err);
+//     console.log("file saved !");
+// })
+
+//delete
+
+// fs.unlink("vishnu.md",(err)=>{
+//     if(err) console.log(err);
+//     console.log("deleted succfully !");
+// })
+
+//rename
+
+// fs.rename("vishnu.json","vishnu.md",(err)=>{
+//     if(err)console.log(err);
+//     console.log("file rename successfully!");
+// })
+
+
+//Event Module
+
+
+// const EventEmitter = require("events");
+
+// //class 
+
+// const emitter = new EventEmitter();
+
+
+// //register
+// // document.addEventListener("click",()=>{
+
+// // })
+
+
+
+// //emitter.addListener();
+
+// //register the event
+// emitter.on("khansi",(name)=>{
+//     console.log("versa khansh rahi ha !",name);
+// })
+
+
+// //trigger
+
+// emitter.emit("khansi","kamble");
+
+
+
+
 
 
 
