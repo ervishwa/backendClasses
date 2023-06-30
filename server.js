@@ -12,9 +12,9 @@ const server = http.createServer((req,res)=>{
 
 //listiner
 
-server.on("connection",()=>{
-    console.log("new connection triggered! ")
-})
+// server.on("connection",()=>{
+//     console.log("new connection triggered! ")
+// })
 
 
 //trigger

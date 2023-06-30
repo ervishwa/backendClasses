@@ -17,3 +17,8 @@
 
 //     return n==1;
 // };
+
+//30 june
+// https://leetcode.com/problems/guess-number-higher-or-lower/description/
+
+
