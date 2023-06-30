@@ -85,3 +85,6 @@ microtask queue call back queue event loop web api's.
 
 
 -------------
+
+
+https://stackoverflow.com/questions/10808109/script-tag-async-defer
