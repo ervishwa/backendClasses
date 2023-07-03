@@ -163,6 +163,204 @@
 // const ans = await sum(3,4);
 
 
+//api
+
+//const url = "https://restcountries.com/v3.1/all";
+
+//fetch
+
+//fetch(url).then((data)=> data.json()).then((res)=> console.log(res[0].name.common));
+
+// async function getdata(){
+//      const data = await axios.get(url);
+//      console.log(data);
+// }
+
+// getdata();
+
+
+//call bind apply
+
+
+// const a = {
+//      name : "vishnu",
+//      age : 24,
+//      getname : function(place="bihar",country="India"){
+//           console.log(`${this.name} is ${this.age} old ! he lives in ${place} which is in ${country}`)
+//      }
+// }
+
+// a.getname();
+
+// const b = {
+//      name : "akash",
+//      age : 34
+// }
+
+// i want b should borrow the getname method of a ?
+
+//a.getname.call(b,"indore","India");
+
+//a.getname.apply(b,["indore","India"]);
+
+// const ans = a.getname.bind(b);
+
+// ans("indore","India");
+
+
+// const a = {
+//      name : "vishnu",
+//      age : 24,
+//      place : "delhi",
+//      walk : function(){
+//           console.log(this.name + "can walk !");
+//      }
+// }
+
+
+// const jsonFromat = JSON.stringify(a);
+
+// console.log(JSON.parse(jsonFromat));
+
+// {
+//      "name":"vishnu",
+//      "age":24
+//     "place":"delhi"
+// }
+
+
+//closure
+
+
+//let a = 1;
+
+//i want to make a method that will inc the a by 1.? [1 function]
+
+// function incByAkash(){
+//     return a++;
+// }
+
+//  console.log(incByAkash()) ;  1
+//  console.log(incByAkash()) ;  2
+
+//  console.log(incByAkash());
+// function incbyYash(){
+//      return a++;
+// }
+
+// function a(){
+//  let a = 1;
+       
+//  return function b(){  //store a address ..
+//      return a++;
+//  }
+// }
+
+// const ans = a();
+
+// console.log(ans());
+// console.log(ans());
+// console.log(ans());
+
+
+// const ans2 = a();
+// console.log(ans2());  //4 //1 //4
+
+
+// const ans = (function a(){
+// let a = 1;
+// return function b(){
+//      return a=a+1;
+// }
+// })();
+//console.log(ans);
+//  console.log(ans());
+// console.log(ans());
+// console.log(ans());
+
+// ans();
+
+
+//console.log(ans());
+
+//function 
+
+// function  a(){
+//      return 2;
+// }
+
+// console.log(typeof a);
+
+
+// function (){
+//      return 2;
+//  }
+
+//  console.log(a());
+
+
+// function sum(a,b){
+//   return a+b;
+// } 
+
+// console.log(sum(2,3));
+
+//it's not a good idea..
+
+//FUNCTION CONSTRUCTOR..
+
+ //const myfunction =  new Function("a","b","return a+b");
+
+// console.log(myfunction(2,3));
+
+//console.log(typeof myfunction);
+
+
+//self invoking function  (iife) (imigeatly invoked function expression)
+
+//syntax function expression slef invoking function..
+
+// const a = function(){
+//      console.log("haooo");
+// }();
+
+
+// (
+//      function a(){
+//           console.log("haiai");
+//      }
+// )();
+
+// function a(){
+//      console.log("sjdnjsd");
+// }();
+
+
+// function a(a,b){
+//      console.log(arguments[6]);
+// }
+
+// a(2,3,4,5,6,7,8,9);
+
+// [2,3,4,5,6,7,8,9].length == 8
+
+
+
+// let sum = 0;
+
+// function a(){
+
+//  for(let i = 0 ; i < arguments.length ; i++){
+//      sum += arguments[i];
+//  }
+  //return sum;
+// }
+// a(2,3,4,5,6,7,8,9);  
+
+// console.log(sum);
+
+
+
 
 
 

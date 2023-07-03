@@ -59,6 +59,66 @@ async await
 alternative syntax of Promise.then.catch
 
 
+-----------------------
+
+
+data fetching
+
+fetch -> inbuilt
+axios 
+
+
+this -> this will alws points to some object..
+normally this points to window object.
+inside a function this point again window object..
+but in sctrict mode inside a fun it will be undefined..
+
+but we can change the where the this will point..(i can say which object it should point !)
+
+with the help of call,bind,apply
+
+<functionName>.call(<obj to point>)
+
+
+---------------------------------
+
+function ------
+
+// function  a(){
+//      return 2;
+// }
+
+// console.log(typeof a);
+
+
+//function expression
+//function decelaration
+
+
+//function decelaration
+
+function a(){
+    return 2;
+}
+
+//function expression
+
+const a = function k(){  => named function , anonyomus function
+    return 10;
+}
+
+//function can be created by using FUNCTION OBJECT.
+
+
+we cant make a function declaration a self invoking function..
+
+
+function have properties and as well as some methods..
+
+arguments.length  -> property
+
+jab bhi koi function banta ha to uska pass js inbuilt ek object dedeta ha arguments..
+
 
 
 
