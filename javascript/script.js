@@ -422,8 +422,20 @@
 // const ans = Math.max.apply(0,a);
 // console.log(ans);
 
+// const a = " i m a genious boy ";
 
+// console.log(a.length);
 
+// a.trimEnd();
+
+// const b = a.trim();
+// a.tr
+
+// console.log(a);
+
+// console.log(a.length);
+
+// console.log(b.length);
 
 
 
