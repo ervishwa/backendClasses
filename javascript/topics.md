@@ -14,3 +14,5 @@
 14 -> arrays methods
 15 -> operators
 16 -> settimeout,setInterval
+
+

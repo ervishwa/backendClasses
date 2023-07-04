@@ -116,8 +116,42 @@ we cant make a function declaration a self invoking function..
 function have properties and as well as some methods..
 
 arguments.length  -> property
+function.tostring() -> method
 
 jab bhi koi function banta ha to uska pass js inbuilt ek object dedeta ha arguments..
+
+
+note -> in js all the function are the methods of the obj.
+
+
+function a(a,b){
+  return a+b;
+}
+
+Points to remember 
+
+1->  js function will not chq the data type.
+2->  js function will not chq the no. of arguments passed..
+3-> js function have not return type.
+
+
+-----------------------
+
+// 1 , 2 , 3 
+
+// const ans = Math.max(1,2,3);
+
+// console.log(ans);
+
+const a = [1,2,3];
+
+//const ans = Math.max(...a);  => Math.max(1,2,3)
+//loop
+//console.log(ans);
+
+// const ans = Math.max.apply(0,a);
+// console.log(ans);
+
 
 
 
