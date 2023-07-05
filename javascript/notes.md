@@ -152,7 +152,9 @@ const a = [1,2,3];
 // const ans = Math.max.apply(0,a);
 // console.log(ans);
 
+-------------------------
 
+a funtion returning a function..
 
 
 

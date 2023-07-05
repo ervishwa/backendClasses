@@ -438,6 +438,87 @@
 // console.log(b.length);
 
 
+//! currying 
+
+
+function add(a){
+    return function temp(b){
+         return a+b;
+    }
+}
+
+//console.log(add(2,3));
+
+//op - 5;
+
+// const a =  add(2) ;
+// const b =  a(3);
+
+// console.log(b);
+
+// const ans = add(2)(3);
+// console.log(ans);
+
+// const a = add(2);
+
+// const ans = a(3);
+
+// console.log(ans);
+
+
+//! que sum(2)(3)(4)(5)(6) => ans ?
+
+//  function sum(a){ return (b)=>(c)=>(d)=>(e)=>(f)=>a+b+c+d+e+f};
+    
+// let ans =sum(4)(5)(6)(7)(8)(9);
+// console.log(ans);
+
+
+// Const ans =add(2)(3)(4)(5)(6)
+// Console.log(ans)
+
+
+// function sum(a){
+//     return function sum(b){
+        
+//         return function sum(c){
+//             return function sum(d){
+//                 return function sum(e){
+//                    return a+b+c+d+e;
+//                 }
+        
+//             }
+//         }
+//     }
+// }
+// const ans = sum(2)(4)(6)(1)(4)
+// console.log(ans);
+
+
+
+//! sum(2)(4)........................(n)   return the sum ?
+
+// sum(2)(4)(4)()
+// sum(2)() = 2
+
+//? Recursion
+
+            
+// function sum(a){   
+//    return function kaka(b){
+//     if(typeof b === "number"){
+//       return sum(a+b);
+//     }else{
+//         return a;
+//     }
+//    }
+// }
+
+// const result = sum(1)(2)(3)();
+// console.log(result);
+
+
+
 
 
 
