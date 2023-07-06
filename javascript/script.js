@@ -518,6 +518,67 @@ function add(a){
 // console.log(result);
 
 
+//Array Methods...
+
+//! Higer order function and lower order function
+
+//* Higer order function
+
+// function HigerOrder(a){
+//    return a(); //2
+// }
+
+// function LowerOrder(a){
+//    return a();
+// }
+
+//lower order function
+// function  a(){
+//     return 2;
+// }
+
+//  console.log(HigerOrder(a));
+
+
+//Map
+
+//const a  = [1,2,3,4,5,6,7,8,9];
+
+//! i want to multiply each and every element of array a by 2.
+
+///const ans = [];
+
+
+// for(let i = 0 ; i < a.length ; i++){
+//     ans.push(a[i]*2);
+// }
+
+// console.log(ans);
+
+
+//const ans = a.map((curr,id,arr)=>{return curr*2});
+
+
+//! For each
+
+// curr = curr * 2;
+// cuur *= 2;
+
+// const ans = a.forEach((curr,id,arr)=> curr*=2);
+
+// a.forEach((curr,id,arr)=> a[id]=curr*=2);
+
+
+//  console.log(a);
+
+
+
+
+
+
+
+
+
 
 
 

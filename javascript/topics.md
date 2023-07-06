@@ -10,6 +10,7 @@
 10 -> call stack
 11 -> event loop ,web Api's
 12 -> Prototype Inheritance
+-> polyfills of (map,filter,forEach,reduce)
 13 -> classes
 14 -> arrays methods
 15 -> operators
