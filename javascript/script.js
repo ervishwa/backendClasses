@@ -572,6 +572,33 @@ function add(a){
 //  console.log(a);
 
 
+//*************
+
+//! filter
+
+//const a = [1,2,3,4,5,6,7,8,9]; 
+
+//! use case i want elements which greater then 3.
+
+// const ans = a.filter((curr,id,arr)=>{
+//     if(curr%2==0){
+//         return -1;
+//     }
+// })
+
+// console.log(ans);
+
+//console.log(Boolean(-2));
+
+//!reduce
+                      
+// const ans = a.reduce((acc,curr)=>{
+// return acc+= curr;
+// }) 
+
+// console.log(ans);
+
+
 
 
 
