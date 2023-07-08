@@ -599,6 +599,105 @@ function add(a){
 // console.log(ans);
 
 
+//! object
+
+// by how many methods we can create objects ..
+
+//new keyword objecy literal Constructor
+
+
+//object literal 
+
+// const personA = {
+//     name: "Ahmed",   //property
+//     age: 20,
+//     getname : function(){   // method
+//         return this.name;
+//     }        
+// }
+
+
+//new keyword object
+
+// const person  = new Object();
+
+// person.name = "John";
+// person.age = 20;
+
+// console.log(person);
+
+
+//Constructor function
+
+// function Person(name, age, city){
+//     this.name = name;
+//     this.age = age;
+//     this.city = city;
+//     this.getname = function(){
+//         return this.name;
+//     }
+//     // this.canwalk = function(){
+//     //         console.log(`${this.name} can walk`);
+//     //     }
+// }
+// Person.canwalk = function(){
+//     console.log(`${this.name} can walk`);
+// }
+
+//!prototype inheritance..
+
+// Person.prototype.canwalk = function(){
+//     console.log(`${this.name} can walk`);
+// }
+
+
+
+// const pa = new Person("akash",30,"indore");
+// const pb = new Person("kamble",30,"indore");
+// //...20..
+
+// console.log(pa.canwalk());
+// console.log(pb.getname());
+
+
+//Object.create();
+
+//const Person = Object.create();
+
+//! find the length of the object?
+
+// const obj1 = {
+//     name : "John",
+//     age : 20,
+//    city : "Kamble",
+//    country : "Indore",
+// }
+
+//4
+
+// let i = 0 ;
+
+// for(let key in obj1) {
+//     i++;
+// }
+
+// console.log(i);
+
+// Object.keys(obj1);  // array of all kesy ["name","age","city","country];
+// Object.values(obj1); // array of values ["john",20,kamle, "indore];
+// Object.entries(obj1);
+
+//console.log(Object.keys(obj1).length);
+
+//console.log(Object.entries(obj1));
+
+
+
+
+
+
+
+
 
 
 
