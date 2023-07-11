@@ -157,6 +157,17 @@ const a = [1,2,3];
 a funtion returning a function..
 
 
+--------------------------
+
+
+//! Asynchronous js and Event loop
+
+Event loop 
+callback queue
+MicroTask Queue
+
+
+
 
 
 

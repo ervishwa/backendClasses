@@ -692,15 +692,52 @@ function add(a){
 //console.log(Object.entries(obj1));
 
 
+//----------------------------------------------------------------
+
+
+//callstack web Api's callback Queue
+
+
+// console.log("starting");
+
+// setTimeout(() => {
+//     console.log("doing something");
+// }, 3000);
+
+// console.log("ending");
+
+
+// console.log("statring");
+// document.getElementById.addEventListener('clicle', ()=>{
+//     console.log("cliking me"); 
+// });
+// console.log("ending"); 
 
 
 
+// console.log("starting");
 
+// setTimeout(() => {
+//     console.log("doing something");
+// },0);
 
+// const ans = fetch("http://localhosthttps://jsonplaceholder.typicode.com/todos/1").then(response => response.json())
+// .then(data => console.log(data));
 
+// console.log(ans);
 
+// console.log("ending");
 
+// const ans = fetch("http://localhosthttps://jsonplaceholder.typicode.com/");
 
+// console.log(ans);
+
+//starting ending fetching doing something.
+//staring ending fetching doing something.
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(response => response.json())
+// .then(json => console.log(json));
 
 
 
