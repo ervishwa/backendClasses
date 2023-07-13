@@ -742,6 +742,33 @@ function add(a){
 
 
 
+//! sorting
+
+
+//const a = [1,12,19,4,5,6,7,8,9];
+
+//!comparison function
+
+
+// function compare(a,b){
+//     return a-b;
+//     3-4
+//     4-3
+// }
+
+//0 do nth.
+//-ve a sort before b.
+//+ve b sort before a.
+
+//console.log(a.sort(compare()));
+
+// console.log(a.sort((a,b)=>{return a-b}));
+
+// for(let i = 0 ; i < 10 ; i++){     //var i = 10;
+//     setTimeout(()=>{                  
+//         console.log(i);
+//     },0)   
+// }
 
 
 

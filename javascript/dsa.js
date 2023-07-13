@@ -102,3 +102,59 @@
 
   // let a = [1,2,3,4,5,6];
    //const ans = a.reduce((ele,arr)=>{return ele*=arr; })
+
+
+   // const inp = [
+//      {name: "sonu"},
+//      {name: "sameer"},
+//      {name: "rahul"},
+//      {name: "pinki"},
+//      {name: "basheer"}
+//    ];
+
+// const inp = [
+//      {name: "rahul"},
+//      {name: "sameer"},
+//      {name: "sonu"},
+//      {name: "pinki"},
+//      {name: "basheer"}
+//    ];
+
+ //basheer pinki rahul sameer sonu
+
+
+// const ans = inp.sort((a,b)=>{
+//      return a.name.localeCompare(b.name);
+      //return b.name.length - a.name.length;
+// })
+
+// console.log(ans);
+
+
+
+//const inp = [2,3,4,1,9,6,5,11];
+
+// const inp = [2,3,4,1,9,6,5,11];
+// let ans =inp.sort((a,b)=>{
+//        return a-b;
+// })
+// console.log(ans);
+
+//const inp1 = ["apple","king","mango","akash","yash","vishwa"];
+
+
+// let arr = [15,19,2,3,4,1,9,6,5,11];
+// console.log(arr.sort())
+
+
+// const inp1 = ["apple","king","mango","akash","yash","vishwa"];
+// let ans=inp1.sort((a,b)=>{
+//     return a.localCompare-b.localCompare;
+// })
+// console.log(ans);
+
+
+// const inp1 = ["apple","king","mango","akash","yash","vishwa"];
+
+
+// console.log(inp1.sort());
