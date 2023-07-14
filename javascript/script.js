@@ -770,8 +770,45 @@ function add(a){
 //     },0)   
 // }
 
+                        //  a:10 
+// console.log(a);
+
+// const a = 10;
+
+// const 
+//undefined  undefined  refrence error.   
 
 
+// console.log(a);
+
+// const a = 10 ;
+
+// {
+//  const a = 20;
+//   console.log(a);
+// }
+
+// console.log(a);
 
 
+//udefined 20 20  
 
+console.log(a);
+
+var a = 10;
+{
+    a= 30;
+
+    setTimeout(()=>{
+        console.log(a);
+    },0);
+}
+
+(function yash(){
+  var a = 20;
+    console.log(a);
+})();
+
+
+//undefied 30 20 ;
+//undefined 20 30;
