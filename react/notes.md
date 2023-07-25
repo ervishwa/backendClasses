@@ -1,0 +1,1 @@
+named export default export
