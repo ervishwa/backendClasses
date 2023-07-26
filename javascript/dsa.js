@@ -158,3 +158,74 @@
 
 
 // console.log(inp1.sort());
+
+
+//! Write a JavaScript program to find the most frequent item in an array. 
+// Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+// Sample Output : a ( 5 times )
+
+
+// function fre(){
+//     var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+//     let fre = 0;
+//     let min = arr1[0]; 
+//     a < 3 
+    
+//     for(let i = 0; i<arr1.length;i++){
+//         for(let j = 1; j<arr1.length;j++){
+//             if(arr1[i] || arr1[j] < min){
+//                 min = arr1[i];
+//             }else if(arr1[j]==min){
+//                 fre+= 1;              
+//             }  
+//         }
+       
+//     }
+
+//var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3,3,3,3];
+
+
+
+// {
+//  3 : 1
+// }
+ 
+// const freqobj = arr1.reduce((acc,curr)=>{
+//  // doing something
+//   if(acc[curr]){
+//    acc[curr]= acc[curr]+1;
+//   }else{
+//     acc[curr] = 1;
+//   }
+//   return acc;
+// },{})
+
+// console.log(freqobj);
+
+// const obj = {
+//   name : 'vishnu',
+//   age : 23,
+// }
+
+
+// console.log(obj["gender"]);
+
+// let ans ;
+// let freq = 0; 4
+
+// for(let num in freqobj){
+//   if(freqobj[num]>freq){
+//     ans = num;
+//     freq = freqobj[num];
+//   }
+// }
+// {
+//   3 : 4,
+//   a : 5,
+//   2 : 2,
+//  4 : 1,
+//  9 : 1,
+// }
+
+
+// console.log(ans);
