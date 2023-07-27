@@ -1,14 +1,24 @@
+import { useState } from "react";
 import { MyButton } from "./components/mybutton/MyButton"
 import { Profile } from "./components/profile/Profile";
+import { List } from "./components/list/List";
 
 export const App = ()=>{
   const name = "versha";
-
+  const[isvisible,setIsvisible] = useState(false);
+  // let ele ;
+  // if(isvisible){
+  //   ele = <MyButton/>;
+  // }else{
+  //   ele = <Profile/>
+  // }
   return (
      <div>
     <h1>hello {name}</h1>
-     <MyButton/>
-     <Profile/>
+{/* {
+  isvisible ? <MyButton/> : <Profile/>
+} */}
+    <List/>
     </div>
     
   )
