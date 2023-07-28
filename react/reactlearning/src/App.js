@@ -2,6 +2,9 @@ import { useState } from "react";
 import { MyButton } from "./components/mybutton/MyButton"
 import { Profile } from "./components/profile/Profile";
 import { List } from "./components/list/List";
+import { NewList } from "./components/list/NewList";
+import { Events } from "./components/events/Events";
+import { Count } from "./components/count/Count";
 
 export const App = ()=>{
   const name = "versha";
@@ -18,7 +21,10 @@ export const App = ()=>{
 {/* {
   isvisible ? <MyButton/> : <Profile/>
 } */}
-    <List/>
+    {/* <List/> */}
+    {/* <NewList/> */}
+    {/* <Events/> */}
+    <Count/>
     </div>
     
   )
