@@ -229,3 +229,8 @@
 
 
 // console.log(ans);
+
+              
+// const arr = [1,3,4,2,5,2,1,9]                            
+// const duplicate = arr.filter((ele,index,arr)=>arr.indexOf(ele)!==index) 
+// console.log(duplicate);

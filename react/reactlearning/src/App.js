@@ -24,7 +24,8 @@ export const App = ()=>{
     {/* <List/> */}
     {/* <NewList/> */}
     {/* <Events/> */}
-    <Count/>
+    <Count num="1"/>
+    <Count num="5"/>
     </div>
     
   )
