@@ -5,6 +5,7 @@ import { List } from "./components/list/List";
 import { NewList } from "./components/list/NewList";
 import { Events } from "./components/events/Events";
 import { Count } from "./components/count/Count";
+import { Temp } from "./components/temp/Temp";
 
 export const App = ()=>{
   const name = "versha";
@@ -24,8 +25,9 @@ export const App = ()=>{
     {/* <List/> */}
     {/* <NewList/> */}
     {/* <Events/> */}
-    <Count num="1"/>
-    <Count num="5"/>
+    {/* <Count num="1"/>
+    <Count num="5"/> */}
+    <Temp />
     </div>
     
   )
