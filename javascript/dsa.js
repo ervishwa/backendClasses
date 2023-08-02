@@ -234,3 +234,62 @@
 // const arr = [1,3,4,2,5,2,1,9]                            
 // const duplicate = arr.filter((ele,index,arr)=>arr.indexOf(ele)!==index) 
 // console.log(duplicate);
+
+
+//! missing odd number
+
+// const input=[5,7,9,11,15,17]
+// const  output=13
+
+
+// function findMissingnumber(num){
+//   let ans ;
+
+//   for(let i=1;i<num.length;i++){
+//     if(num[i-1]+2!==num[i]){
+//       ans = num[i-1]+2;
+//       break;
+//     }
+//   }
+
+//   return ans;
+// }
+                                 
+// console.log(findMissingnumber([5,7,9,11,15,17]))
+
+
+//! reverse String
+
+let inp = "vishnu thakur";
+
+//output = "unhsiv rukaht";
+
+// function reverse(inp){
+//   let ans = "";
+
+//   for(let i=inp.length-1;i>=0;i--){
+//     ans += inp[i];
+//   }
+//   return ans;
+// }
+
+// function reverseString(str){
+//   let ans = "";
+//   let inp = str.split(" ");
+  
+//   for(let i=0;i<inp.length;i++){
+//      ans += reverse(inp[i])+" ";
+//   }
+
+//   return ans;
+// }
+
+// console.log(reverseString(inp));
+
+
+// function reverseString(inp){
+ 
+//   let ans = inp.split(" ").map((curr)=>curr.split("").reverse().join("")).join(" ");
+//   return ans;
+
+// }
