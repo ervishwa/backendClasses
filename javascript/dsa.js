@@ -293,3 +293,7 @@ let inp = "vishnu thakur";
 //   return ans;
 
 // }
+
+// hW -> 50 51 52
+
+//https://www.w3resource.com/javascript-exercises/javascript-array-exercises.php
